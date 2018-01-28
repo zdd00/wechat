@@ -10,7 +10,8 @@ class Index extends Controller
 {
     public function index()
     {
-
-        return 'http://tj.nineton.cn/Heart/index/all';
+        var_dump(111);
+        phpinfo();
+        return 'http://tj.nineton.cn/Heart/index/all?city=CHBJ000700';
     }
 }
